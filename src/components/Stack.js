@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 /*
+Source: https://every-layout.dev/layouts/stack/
+
 Example:
 <Stack space="1.5rem">
   <h2>Header</h2>
