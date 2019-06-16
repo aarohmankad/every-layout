@@ -1,6 +1,6 @@
 {
   "name": "every-layout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Composable layouts using CSS best practices",
   "main": "./lib/every-layout.js",
   "scripts": {
