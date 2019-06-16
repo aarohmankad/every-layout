@@ -2,11 +2,11 @@
   "name": "every-layout",
   "version": "1.0.2",
   "description": "Composable layouts using CSS best practices",
-  "main": "./lib/every-layout.js",
+  "main": "./build/every-layout.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "publish": "npm run build && npm publish"
+    "prepublish": "rm -rf ./build && npm run build"
   },
   "repository": {
     "type": "git",

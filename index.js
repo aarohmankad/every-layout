@@ -1,4 +1,3 @@
-export const Cover = require('./Cover');
-export const Sidebar = require('./Sidebar');
-export const Stack = require('./Stack');
-
+export Cover from './components/Cover';
+export Sidebar from './components/Sidebar';
+export Stack from './components/Stack';
