@@ -9,18 +9,16 @@ Example:
   <h2>Header</h2>
   <img src={logo} className="App-logo" />
   <p>Paragraph</p>
-</Stack>;
+</Stack>
 */
 
 const StyledStack = styled.div`
-  --space: ${props => props.space || '1rem'};
-
   & > * {
     margin: 0;
   }
 
   & > * + * {
-    margin-top: var(--space);
+    margin-top: ${props => props.space || '1rem'};
   }
 `;
 
