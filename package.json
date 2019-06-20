@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "webpack",
-    "prepublish": "rm -rf ./build && npm run build"
+    "prepublishOnly": "rm -rf ./build && npm run build"
   },
   "repository": {
     "type": "git",
